@@ -1,3 +1,68 @@
+nav {
+  display: flex;
+	flex-direction: row;
+
+	background-color: #8A2BE2;
+	flex-basis: 15vw;
+	flex-shrink: 0;
+}
+
+nav a {
+	color: white;
+	padding: 0.25em 10em;
+	text-decoration: none;
+	transition: background-color 0.5s;
+}
+
+nav a:hover {
+	background-color: #272;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#slides section{
+  width: 80%
+  margin: 5vh auto;
+  background-color: #fff;
+  min-height: 30vh;
+  text-align: centre;
+  overflow: auto;
+  border-radius: lem;
+  display: none;
+  flex-firection: column;
+  justify-content: space-around;
+
+}
+
+#slides section.current {
+  display:flex;
+}
+
+
+footer section{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#toolbar {
+  justify-content: center;
+}
+
+#current {
+  margin: 0 1em;
+}
+
+
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
 /* MOBILE AND GLOBAL STYLES */
 
 /* applies to screens smaller than 500px (first breakpoint) */
@@ -5,8 +70,16 @@
 
 body {
   background: #fcc;
-} 
+}
 
+
+
+@media screen and (max-width: 500px) {
+nav {
+  display: flex;
+  flex-direction: column;
+  }
+}
 
 
 /* TABLET STYLES */
@@ -14,10 +87,11 @@ body {
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
+
   body {
     background: #cfc;
-  } 
+  }
 }
 
 
@@ -30,5 +104,5 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
