@@ -24,22 +24,24 @@ header {
   font-weight: bold;
 }
 
-#slides section{
-  width: 80%
+#slideDeck section{
+  width: 80%;
   margin: 5vh auto;
   background-color: #fff;
   min-height: 30vh;
-  text-align: centre;
+  text-align: center;
   overflow: auto;
-  border-radius: lem;
+  border-radius: 2em;
   display: none;
-  flex-firection: column;
+  flex-direction: column;
   justify-content: space-around;
 
 }
 
-#slides section.current {
+#slideDeck section.current {
   display:flex;
+
+
 }
 
 
@@ -56,7 +58,10 @@ footer section{
 #current {
   margin: 0 1em;
 }
-
+.section-image {
+  margin: auto;
+  display: block;
+}
 
 /* MOBILE AND GLOBAL STYLES */
 
