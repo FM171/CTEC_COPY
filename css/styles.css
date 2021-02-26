@@ -7,15 +7,38 @@ body{
   color: #FFB6C1;
 }
 
-
+u {
+  color: #800080;
+}
 
 html {
 	scroll-behavior: smooth;
 }
 
+section h2{
+  text-align: center;
+  color:#F5F5F5
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.work_title {
+  display: flex;
+  justify-content: center;
+}
+#search {
+  order: 1;
+  display: flex;
+  justify-content: center;
+}
+
+
 .title {
-width: 100%;
-height: 100%;
+
+
 background-color: red;
 position: relative;
 animation-name: db_title;
@@ -31,12 +54,16 @@ article {
   text-align: center;
 }
 
+.hidden{
+  display : none;
+}
+
 @keyframes db_title {
-  0%   {background-color:#F5F5F5; left:0px; top:0px;}
-  25%  {background-color:#FA8072; left:0px; top:0px;}
-  50%  {background-color:#DDA0DD; left:0px; top:0px;}
-  75%  {background-color:#800080; left:0px; top:0px;;}
-  100% {background-color:#6A5ACD; left:0px; top:0px;}
+  0%   {background-color:#F5F5F5;}
+  25%  {background-color:#FA8072;}
+  50%  {background-color:#DDA0DD;}
+  75%  {background-color:#800080;}
+  100% {background-color:#6A5ACD;}
 }
 
 #slideDeck section{
