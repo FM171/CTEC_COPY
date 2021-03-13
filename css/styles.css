@@ -1,27 +1,193 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 body{
   font-family: Montserrat, sans-serif;
   margin: 0;
   background-color: #778899;
-  color: #FFB6C1;
+  color: #FFFFFF;
+}
+:root {
+	--hue: 302s;
+	--dark: hsl(302, 95%, 18%);
+	--light: hsl(354, 63%, 90%);
 }
 
-u {
-  color: #800080;
+.ghost{
+  position: relative;
+  top: 0;
+  left:0;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+
+}
+
+
+.ghost, h2{
+ font-size: 2em;
+ text-transform: uppercase;
+
+
+}
+
+h2 span {
+  transition: 1.5s;
+}
+
+h2:hover span {
+  filter: blur(50px);
+  opacity: 0;
+}
+
+h2 span:nth-child(1)
+{
+  transition-delay: .1s;
+}
+h2 span:nth-child(2)
+{
+  transition-delay: .2s;
+}
+h2 span:nth-child(3)
+{
+  transition-delay: .3s;
+}
+h2 span:nth-child(4)
+{
+  transition-delay: .4s;
+}
+h2 span:nth-child(5)
+{
+  transition-delay: .5s;
+}
+h2 span:nth-child(6)
+{
+  transition-delay: .6s;
+}
+h2 span:nth-child(7)
+{
+  transition-delay: .7s;
+}
+h2 span:nth-child(8)
+{
+  transition-delay: .8s;
+}
+h2 span:nth-child(9)
+{
+  transition-delay: .9s;
+}
+h2 span:nth-child(10)
+{
+  transition-delay: .10s;
+}
+h2 span:nth-child(11)
+{
+  transition-delay: .11s;
+}
+h2 span:nth-child(12)
+{
+  transition-delay: .12s;
+}
+h2 span:nth-child(13)
+{
+  transition-delay: .13s;
+}
+
+#search {
+  order: 1;
+  display: flex;
+  justify-content: center;
 }
 
 html {
 	scroll-behavior: smooth;
 }
 
+
+.list {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	max-width: 250px;
+
+		/* max-width: 600px; */
+}
+
+
+
+input, button {
+	font-size: 1em;
+	max-width: 250px;
+}
+
+button {
+	border: 1px solid var(--light);
+	background-color: var(--dark);
+	color: #FFFFFF;
+	max-width: 250px;
+}
+
+
+ul {
+	list-style: none;
+	user-select: none;
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+}
+
+li {
+	padding: 0em 0rem;
+	margin: 0;
+	border: 0px solid var(--dark);
+	display: flex;
+	justify-content: space-between;
+	max-width: 250px;
+
+}
+
+li:nth-child(odd) {
+	background-color: var(--light);
+	border-width:  0;
+	max-width: 250px;
+
+
+}
+
+label {
+	flex-grow: 1;
+
+
+}
+
+input[type="checkbox"] {
+	display: none;
+
+
+}
+
+input:checked + label {
+	text-decoration: line-through;
+	color: black;
+
+}
+
+
+
+
+u {
+  color: #800080;
+}
+
+
+
 section h2{
   text-align: center;
-  color:#F5F5F5
+  color:#000000;
 }
 
 main {
-  max-width: 600px;
+
   margin: 0 auto;
 }
 
@@ -44,7 +210,7 @@ position: relative;
 animation-name: db_title;
 animation-duration:  6s;
 animation-iteration-count: infinite;
-padding: 1em 0em;
+padding: 2em 0em;
 text-align: center;
 color: black;
 position: static;
@@ -52,6 +218,12 @@ position: static;
 
 article {
   text-align: center;
+}
+
+p {
+
+	text-align: center;
+
 }
 
 .hidden{
@@ -64,6 +236,10 @@ article {
   50%  {background-color:#DDA0DD;}
   75%  {background-color:#800080;}
   100% {background-color:#6A5ACD;}
+}
+
+section {
+	padding: 0.25em;
 }
 
 #slideDeck section{
@@ -157,6 +333,41 @@ nav a {
 }
 
 
+.list {
+  display: flex;
+	flex-direction: column;
+  justify-content: flex-end;
+	flex-basis: 15vw;
+	flex-shrink: 0;
+  position: fixed;
+  left:300px;
+}
+
+.list ul, li, label, input {
+	color: pink;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+
+}
+
+
+p{
+	padding: 0em;
+	margin:0px
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 500px) {
 
   #menuToggler {
@@ -176,5 +387,22 @@ nav a {
   nav a {
     font-size: 1.3em;
   }
+
+  .ghost {
+
+
+      position: relative;
+      top: 0;
+      left:0;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2em;
+
+
+
+  }
+
 
 }
