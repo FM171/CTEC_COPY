@@ -15,3 +15,11 @@ The `css/styles.css` file contains a basic starting template for a responsive pa
 ## js/scripts.js
 
 The `js/scripts.js` file contains a simple console.log statement to confirm that it is being executed.
+
+References
+
+Index.html
+Ghost text animation -  https://www.youtube.com/watch?v=BXwXUj2KloA
+
+Javascript.html +  games.js
+match game https://www.youtube.com/watch?v=lhNdUVh3qCc&t=1270s
