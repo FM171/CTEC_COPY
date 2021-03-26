@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Index</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -11,40 +11,46 @@
     <div id="menuToggler">&#8801;</div>
     <nav id="menu">
       <a href="index.html">Home</a>
-      <a href="database.html">Database skills</a>
-      <a href="work.html">Work</a>
-      <a href="javascript.html">Link 4</a>
+      <a href="puzzle_1.html">Puzzle 1</a>
+      <a href="puzzle_2.html">Puzzle 2</a>
+
 
     </nav>
+
+      <h1 class="title">The escape room competition</h1>
+
   </header>
   <main>
-    <div class="title">
-      <h1>Home</h1>
-    </div>
-    <div class="ghost">
-      <h2>
-        <span>F</span>
-        <span>A</span>
-        <span>R</span>
-        <span>A</span>
-        <span>N</span>
-        <span>A</span>
-        <span>K&nbsp;</span>
+    <section class="example-img">
+      <img src="images/solving_clue.jfif" class="index-images" alt="clue_pic">
+      <img src="images/group.jfif" class="index-images" alt="group_pic">
+    </section>
 
-        <span>M</span>
-        <span>A</span>
-        <span>D</span>
-        <span>D</span>
-        <span>A</span>
-        <span>H</span>
-      </h2>
-    </div>
+      <h2 class="sub-title">Want to win 15% off your next visit?</h2>
 
-  </main>
-  <footer>
-  </footer>
+      <p>
+        To celebrate the re-opening of our escape rooms we have created a online compeition!
+      </p>
+      <p>
+        Each page has a puzzle you need to figure out.
+      </p>
+      <p>
+        Enter  all th puzzle answers in order  to get a discount code of 15% off that a room!
+      </p>
+      <section data-name="discountcode">
+        <form id="discountcode">
+          <label for="myAnswer">Answer: </label>
+          <input id="myAnswer" name="answer" placeholder="enter the puzzle answers" required>
+          <input type="submit" value="discountcode">
+        </form>
+      </section>
+    </main>
+    <footer>
 
-  <script src="js/scripts.js"></script>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/answer.js"></script>
 
 
 
