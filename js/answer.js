@@ -6,7 +6,15 @@ const checkAns = (ev) => {
  }
 };
 
-myAnswer.addEventListener('change', checkAns);
+function changecss(myAnswer) {
+  if (myAnswer.value == "KingQuest") {
+    var el = document.querySelector(".praise");
+    document.querySelector(".praise").style.display = "flex";
+  }
+};
+
+
+myAnswer.addEventListener('change', checkAns, changecss);
 
 
 

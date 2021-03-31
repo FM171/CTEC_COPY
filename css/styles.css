@@ -13,17 +13,40 @@ html {
 
 
 p {
+
   text-align: center;
+
 }
+
+
 
 
 section {
   text-align: center;
 }
 
+
+
 input:hover {
   transform: scale(1.3);
 }
+
+.praise{
+  display: none;;
+  justify-content: center;
+  padding: 0.5em;
+  color: pink;
+
+}
+
+
+
+
+
+
+
+
+
 
 .row {
   display: flex;
@@ -81,6 +104,8 @@ input:hover {
 	justify-self: center;
 	filter: drop-shadow(0 0 5px black);
 }
+
+
 
 .index-images{
   flex-direction: column;
