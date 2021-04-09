@@ -40,7 +40,20 @@ input:hover {
 }
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: white;
+  padding: 10px;
+  color: pink;
+}
+.grid-item {
 
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
 
 
@@ -175,12 +188,15 @@ nav {
   opacity: 0;
   transform: translateX(-100vw);
   transition: 0.4s;
+  z-index: 1;
+
 }
 
 
 nav.open {
   opacity: 1;
   transform: none;
+
 
 }
 
@@ -193,10 +209,14 @@ nav a {
   text-align: center;
 
 
+
+
 }
 
 
-
+nav a:hover {
+  color: white;
+}
 
 @media screen and (min-width: 500px) {
 
@@ -225,9 +245,7 @@ nav a {
     font-size: 1.3em;
   }
 
-  nav a:hover {
-    background-color: white;
-  }
+
 
 
 
