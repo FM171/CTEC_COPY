@@ -19,7 +19,4 @@ The `js/scripts.js` file contains a simple console.log statement to confirm that
 References
 
 Index.html
-Ghost text animation -  https://www.youtube.com/watch?v=BXwXUj2KloA
-
-Javascript.html +  games.js
-match game https://www.youtube.com/watch?v=lhNdUVh3qCc&t=1270s
+Search data -  CTECT3905 data-demo example used

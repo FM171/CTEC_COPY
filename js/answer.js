@@ -1,9 +1,9 @@
 const checkAns = (ev) => {
- if (myAnswer.value != "KingQuest") {
-  myAnswer.setCustomValidity("Not right, go back and try again");
- } else {
-  myAnswer.setCustomValidity('');
- }
+  if (myAnswer.value != "KingQuest") {
+    myAnswer.setCustomValidity("Not right, go back and try again");
+  } else {
+    myAnswer.setCustomValidity('');
+  }
 };
 
 function changecss(myAnswer) {
@@ -14,12 +14,13 @@ function changecss(myAnswer) {
 };
 
 
+
 myAnswer.addEventListener('change', checkAns, changecss);
 
 
 
 discountcode.addEventListener('submit', ev => {
- alert(`discount code: KingArthursQuest19`)
- discountcode.reset();
- ev.preventDefault();
+  alert(`discount code: KingArthursQuest19`)
+  discountcode.reset();
+  ev.preventDefault();
 });

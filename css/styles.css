@@ -6,6 +6,17 @@ body{
   color: #FFFFFF;
 }
 
+h1{
+  text-align: center;
+}
+
+li {
+ font-size: 15px;
+}
+
+.query {
+  align-items: center;
+}
 
 html {
   scroll-behavior: smooth;
@@ -27,8 +38,8 @@ section {
 
 
 
-input:hover {
-  transform: scale(1.3);
+ul:hover {
+  transform: scale(1.5);
 }
 
 .praise{
@@ -75,11 +86,11 @@ input:hover {
 
 
 .clue {
-  position: relative;
-  background-color: pink;
-  position: relative;
+  position: static;
+  left: 0;
   bottom: 0;
-
+  width: 100%;
+  background-color: pink;
 }
 
 
@@ -115,8 +126,9 @@ input:hover {
 	width: 250px;
 	height: 350px;
 	justify-self: center;
-	filter: drop-shadow(0 0 5px black);
+
 }
+
 
 
 
@@ -254,6 +266,7 @@ nav a:hover {
 example-img{
   text-align: center;
 }
+
 
 
 
