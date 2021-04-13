@@ -11,11 +11,7 @@ h1{
 }
 
 li {
- font-size: 15px;
-}
-
-.query {
-  align-items: center;
+  font-size: 15px;
 }
 
 html {
@@ -51,34 +47,6 @@ ul:hover {
 }
 
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: white;
-  padding: 10px;
-  color: pink;
-}
-.grid-item {
-
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
-
-
-
-
-
-
-.row {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-}
-
 .sub-title {
 
   text-align: center;
@@ -112,20 +80,20 @@ ul:hover {
 
 }
 
-
+// images are not responsive
 .bars {
-	padding: 3rem;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-column-gap: 0rem;
-	grid-row-gap: 1.5rem;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 0rem;
+  grid-row-gap: 1.5rem;
 
 }
 .bar {
-	position: relative;
-	width: 250px;
-	height: 350px;
-	justify-self: center;
+  position: relative;
+  width: 250px;
+  height: 350px;
+  justify-self: center;
 
 }
 
@@ -246,11 +214,7 @@ nav a:hover {
     position: static;
   }
 
-  .row {
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-  }
+
 
 
 
@@ -263,14 +227,12 @@ nav a:hover {
 
 
 
-example-img{
-  text-align: center;
-}
 
 
 
-
-@media screen and (min-width: 1000px) {
+  /*
+  @media screen and (min-width: 1000px) {
 
 
 }
+*/
