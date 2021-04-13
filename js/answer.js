@@ -9,7 +9,7 @@ const checkAns = (ev) => {
 function changecss(myAnswer) {
   if (myAnswer.value == "KingQuest") {
     var el = document.querySelector(".praise");
-    document.querySelector(".praise").style.display = "flex";
+    document.querySelector(".praise").style.display = "flex"; // this does not work yet but also doesnt caues any error so left in for now 
   }
 };
 
