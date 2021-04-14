@@ -14,9 +14,6 @@ li {
   font-size: 15px;
 }
 
-.query {
-  align-items: center;
-}
 
 html {
   scroll-behavior: smooth;
@@ -75,7 +72,7 @@ ul:hover {
 .bars {
   padding: 3rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(auto, 450px));
   grid-column-gap: 0rem;
   grid-row-gap: 1.5rem;
 
@@ -90,6 +87,12 @@ ul:hover {
   padding: 0.5em;
 }
 
+.bars img {
+  width: 100%;
+  min-height: 200px;
+  object-fit: contain;
+}
+
 /* Attempt to make images responsive
 .bar {
   position: relative;
@@ -101,10 +104,6 @@ ul:hover {
 
 */
 
-.bar:hover {
-
-  transform: scale(1.5);
-}
 
 .index-images{
   width: 30vw;
@@ -195,6 +194,7 @@ nav a:hover {
     transform: none;
     height: auto;
     position: static;
+    width: auto;
   }
 
   nav a {
