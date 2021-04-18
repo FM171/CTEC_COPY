@@ -11,9 +11,11 @@ h1{
 
 }
 
-li {
+ul, li {
   font-size: 15px;
-  padding: 0.25em
+  padding: 0.25em;
+  text-align: center;
+  list-style-position: inside;
 
 }
 
@@ -36,20 +38,15 @@ p {
 
 }
 
-ol {
-  text-align: center;
-}
+
 
 section {
   text-align: center;
 }
 
-ul:hover {
-  transform: scale(1.5);
-}
 
 .praise{
-  display: none;;
+  display: none;
   justify-content: center;
   padding: 0.5em;
   color: pink;
@@ -88,7 +85,6 @@ ul:hover {
 }
 
 .bars {
-  padding: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(auto, 450px));
   grid-column-gap: 0rem;
