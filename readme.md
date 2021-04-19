@@ -10,7 +10,7 @@ The `index.html` file includes a basic template with a link to the `css/styles.c
 
 ## css/styles.css
 
-The `css/styles.css` file contains a basic starting template for a responsive page.
+The `css/styles.css` file contains a basic starting template for a responsive page. The CSS order is elements first (including ids) and  these are in order HTML appearance starting with index and in order of puzzles. Then the classes and keyframe animations.
 
 ## js/scripts.js
 
