@@ -4,6 +4,7 @@ body{
   margin: 0;
   background-color: black;
   color: #FFFFFF;
+
 }
 
 h1{
@@ -45,8 +46,8 @@ section {
 }
 
 
-.praise{
-  display: none;
+#praise {
+  display: None;
   justify-content: center;
   padding: 0.5em;
   color: pink;
