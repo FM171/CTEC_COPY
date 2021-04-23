@@ -8,7 +8,8 @@ body{
 }
 
 main {
-  margin-bottom: 25%;
+  /*margin-bottom: 55%;*/
+  margin-bottom: 10em;
 }
 
 
@@ -21,7 +22,7 @@ main {
   line-height: 1em;
   padding: 0 1rem;
   color:  #FFB6C1;
-  z-index:  2;
+  z-index:  6;
 }
 
 #menuToggler, nav{
@@ -39,7 +40,7 @@ nav {
   opacity: 0;
   transform: translateX(-100vw);
   transition: 0.4s;
-  z-index: 1;
+  z-index: 5;
 
 }
 
@@ -200,6 +201,7 @@ span:nth-child(6)
   bottom: 0;
   width: 100%;
   background-color: pink;
+  z-index: 4;
 }
 
 .clue span{
@@ -301,7 +303,9 @@ span:nth-child(6)
   }
 
   main {
-    margin-bottom: 5%;
+    margin-bottom: 5em;
   }
+
+
 
 }

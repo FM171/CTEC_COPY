@@ -1,6 +1,6 @@
 # CTEC3905 Assignment
 
-#Summary of website
+##Summary of website
 This website is based around a competition for an escape room business that is re-opening after lockdown. These three html pages would be part of the business website in the real world.  
 
 ## index.html
