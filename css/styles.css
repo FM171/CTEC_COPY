@@ -8,7 +8,6 @@ body{
 }
 
 main {
-  /*margin-bottom: 55%;*/
   margin-bottom: 10em;
 }
 
@@ -119,7 +118,7 @@ ul, li {
 
 .title {
 
-  position: relative;
+
   animation-name: db_title;
   animation-duration:  6s;
   animation-iteration-count: infinite;
@@ -305,7 +304,5 @@ span:nth-child(6)
   main {
     margin-bottom: 5em;
   }
-
-
 
 }
