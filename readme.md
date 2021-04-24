@@ -38,7 +38,7 @@ These files all combine to make the search engine on puzzle_1.
 #### js/asnwer.js(change css through js) - https://www.w3schools.com/jsref/met_document_getelementbyid.asp.
 
 ### puzzle_1.html
-#### search.js/article.js/data.js-  CTECT3905 data-demo example used
+#### search.js/article.js/data.js-  CTECT39050-2020-21/data-demo example used
 
 ### styles.css
 #### font - https://fonts.google.com/
