@@ -27,18 +27,18 @@ the `js/answer.js` the validate the answer the user inputs and if correct displa
 ## js/article.js , js/data.js and js/search.js
 These files all combine to make the search engine on puzzle_1.  
 
-##References
+## References
 
-###Index.html
-Cards - CTEC3905-2020-21/animations card example used to display the steps
-bars gird - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
-db_title  - https://www.w3schools.com/css/css3_animations.asp
-discountcode - CTECT-2020-21/lab-materials/lab-5 - the login form was adapted to work as the answer checker
-nav - CTECT-2020-21/lab-materials/lab-3 - Menu toggler and nav example used, z index modified
-js/asnwer.js(change css through js) - https://www.w3schools.com/jsref/met_document_getelementbyid.asp
+### Index.html
+####Cards - CTEC3905-2020-21/animations card example used to display the steps.
+####bars gird - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns.
+####db_title  - https://www.w3schools.com/css/css3_animations.asp.
+####discountcode - CTECT-2020-21/lab-materials/lab-5 - the login form was adapted to work as the answer checker.
+####nav - CTECT-2020-21/lab-materials/lab-3 - Menu toggler and nav example used, z index modified.
+####js/asnwer.js(change css through js) - https://www.w3schools.com/jsref/met_document_getelementbyid.asp.
 
 ###puzzle_1.html
-search.js/article.js/data.js-  CTECT3905 data-demo example used
+####search.js/article.js/data.js-  CTECT3905 data-demo example used
 
 ###styles.css
-font - https://fonts.google.com/
+####font - https://fonts.google.com/
