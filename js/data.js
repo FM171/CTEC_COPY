@@ -9,7 +9,7 @@ const articleData = [
 	{
 		"id": 2,
 		"title": "Queen",
-		"name": "elizabeth"
+		"name": "Elizabeth"
 	},
 	{
 		"id": 3,
